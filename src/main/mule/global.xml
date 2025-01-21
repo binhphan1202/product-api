@@ -18,7 +18,6 @@ http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/m
 	<apikit:config name="product-api-config"
 		api="product-api.raml" outboundHeadersMapName="outboundHeaders"
 		httpStatusVarName="httpStatus" />
-	<api-gateway:autodiscovery apiId="${api.id}" ignoreBasePath="true" doc:name="API Autodiscovery" doc:id="52dbc9e8-69c4-430f-b5de-5813c14c6f27" flowRef="product-api-main" />
 	<configuration-properties doc:name="Configuration properties" doc:id="43e048ec-e499-4f36-8018-9792194f6644" file="product-api-${env}.yaml" />
 
 </mule>
