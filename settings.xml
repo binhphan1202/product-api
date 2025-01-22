@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings>
+  <mirrors>
+    <mirror>
+        <id>central</id>
+        <mirrorOf>central</mirrorOf>
+        <url>https://repo.maven.apache.org/maven2</url>
+    </mirror>
+</mirrors>
+
+  <pluginGroups>
+    <pluginGroup>org.mule.tools</pluginGroup>
+  </pluginGroups>
+
+  <servers>
+    <server>
+      <id>anypoint-exchange-v3</id>
+      <username>~~~Client~~~</username>
+      <password>dcab392430234e3aa1190d94a1229ea5~?~B95bbB14F796497BA6d87DAdAb660EA9</password>
+    </server>
+  </servers>
+</settings>
