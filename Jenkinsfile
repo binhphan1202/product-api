@@ -12,8 +12,8 @@ pipeline {
       }
     }
     stage('Deployment') { 
-      environment {
-      	CLIENT_ID = credentials('DEV_CLIENT_ID')
+    environment {
+    	CLIENT_ID = credentials('DEV_CLIENT_ID')
       	CLIENT_SECRET = credentials('DEV_CLIENT_SECRET')
       }
       steps {
