@@ -37,6 +37,7 @@
 								<vCores>0.1</vCores>
 								<properties>
 									<env>dev</env>
+									<api.id>20164582</api.id>
 									<anypoint.platform.client_id>89d97239fa2f45e29dcdac1e684171b4</anypoint.platform.client_id>
 									<anypoint.platform.client_secret>15E16b68c1EE4674afb025f588ad78A9</anypoint.platform.client_secret>
 								</properties>
@@ -63,6 +64,7 @@
 								<vCores>0.1</vCores>
 								<properties>
 									<env>test</env>
+									<api.id>20164583</api.id>
 									<anypoint.platform.client_id>bb8428a0d03942f889a51b8f93ebffa9</anypoint.platform.client_id>
 									<anypoint.platform.client_secret>ce86B27AB0504F8caC58d0fD0B04b35f</anypoint.platform.client_secret>
 								</properties>
